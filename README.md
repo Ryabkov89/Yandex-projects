@@ -1,2 +1,7 @@
-# Yandex-projects
-These are the projects I've been working on during my study in Yandex Praktikum between 07-2022 and 04-2023
+# Yandex Projects
+These are the projects I've been working on during my study in Yandex Praktikum between July-2022 and March-2023.
+
+## Optimizing electricity consumption at a steel mill
+*Goal:* Reduce energy consumption during melting of steel.
+*Input:* Information about used materials, gas and consumables during process and temperature on each stage
+*Output:* Factors making the greatest influence on the final steel temperature and futher recomendations for a deeper analysis.
