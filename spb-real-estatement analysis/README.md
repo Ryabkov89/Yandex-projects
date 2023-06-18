@@ -3,4 +3,4 @@
 **Goal:** Define the most influencing factors  
 **Input:** Dataset with real estatement prices and characteristics  
 **Output:** Data analysis and research results  
-**Tools:** *Pandas, Matplotlib, Pandas*
+**Tools:** *Python, Matplotlib, Pandas*
