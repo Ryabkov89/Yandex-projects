@@ -9,6 +9,15 @@ The online store is launching a new service. Now users can edit and supplement p
 * matplotlib
 * spacy
 * sklearn
+  * TfidVectorizer
+  * train_test_split
+  * cross_val_score
+  * GridSearchCV
+  * LogisticRegression
+  * f1_score
+  * DecisionTreeClassifier
+  * Pipeline
+  * RandomizedSearchCV
 * catboost
 ## Conclusion
 To perform the classification task, it was decided to use the data transformed using tf-idf.  
