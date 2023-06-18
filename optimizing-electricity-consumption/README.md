@@ -1,6 +1,36 @@
 # Optimizing electricity consumption
 
-**Goal:** Reduce energy consumption during melting of steel.  
-**Input:** Information about used materials, gas and consumables during process and temperature on each stage.  
-**Output:** Factors making the greatest influence on the final steel temperature and futher recomendations for a deeper analysis.  
-**Tools:** *Python, Pandas, Matplotlib, Scipy, Sklearn, Catboost*
+## Project description.
+In order to optimize production costs, the metallurgical plant decided to reduce electricity consumption at the steel processing stage. It is necessary to build a model that will predict the temperature of steel.
+## Tools and technologies
+* pandas
+* nympy
+* matplotlib
+* seaborn
+* sklearn
+  * GridSearchCV
+  * RandomizedSearchCV
+  * StandardScaler
+  * Pipeline
+  * Lasso
+  * Ridge
+  * ElasticNet
+  * RandomForestRegressor
+  * PCA
+* catboost
+  * Pool
+  * CV
+
+  
+## Conclusion
+After analyzing the results of the model, the factors that make the greatest contribution to the value of the final temperature were identified:
+- Initial temperature (1st measurement)
+- Total power (square root of the sum of squares of active and reactive power)
+Based on the simulation results, additional recommendations are given for a deeper analysis for further optimization of energy resources:
+- determination of the normal limits of temperature fluctuations
+- fixing temperature deviations from the set limits
+- collection and analysis of production data for such deviations
+- root cause analysis and hypothesis testing
+- development of energy-saving measures
+- 
+
