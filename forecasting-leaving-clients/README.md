@@ -6,10 +6,18 @@ It is necessary to predict whether the client will leave the bank in the near fu
 ## Tools and technologies
 * pandas
 * sklearn
+  * StandardScaler
+  * train_test_split
+  * DecisionTreeClassifier
+  * RandomForestClassifier
+  * LogisticRegression
+  * confusion_matrix
+  * precision_score
+  * f1_score
+  * precision_recall_curve
+  * roc_curve
+  * roc_auc_score
 * numpy
-* Standard scaler
-* Decision tree
 * matplotlib
-* Logistic regression
 ## Conclusion
 Research was conducted to identify the most adequate machine learning model. The aim of the study has been achieved - the best model is a "Random Forest" with 40 trees and a depth of study of 12 when training the model on an enlarged sample. Relatively randomly, our model showed a good result, which is reflected in the graph above, the area under the curve is 0.85, surpassing the random model by more than one and a half times.
