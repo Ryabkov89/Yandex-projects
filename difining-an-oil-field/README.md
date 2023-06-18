@@ -14,8 +14,11 @@ Steps to select a location:
 ## Tools and technologies
 * pandas
 * numpy
-* StandartScaler
-* Linear regression
+* sklearn
+  * StandardScaler
+  * train_test_split
+  * LinearRegression
+  * mse
 * matplotlib
 ## Conclusion
 According to the combination of factors, after the analysis and calculation of profits and risks, it was determined that the most promising region for the development of the field is region number 2, the probability of losses is no more than 1%, which suits us unlike other regions, where despite the possibility of obtaining more profit, the risk of going into loss is also high.
