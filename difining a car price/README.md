@@ -12,14 +12,20 @@ Important to the customer:
 * pandas
 * matplotlib
 * sklearn
+  * RandomizedSearchCV
+  * Pipeline
+  * OHE
+  * StandardScaler
+  * OrdinalEncoder
+  * r2_score
+  * mse
+  * LinearRegression
+  * RandomForestRegressor
+  * make_column_transformer
 * numpy
-* Pipeline
-* RandomizedSearchCV
-* OHE
 * catboost
-* linear regression
-* lightgbm
-* randomforest
+  * Pool
+  * CV
 ## Conclusion
 The analysis showed the following advantages and disadvantages of the models:
 - Lightgdm gradient boosting technology
